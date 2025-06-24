@@ -1,0 +1,19 @@
+{
+  "name": "remark-hexo-tags",
+  "version": "0.1.0",
+  "description": "A remark plugin to support Hexo tag plugins in Astro and Markdown rendering.",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "remark",
+    "plugin",
+    "hexo",
+    "astro",
+    "markdown"
+  ],
+  "author": "Tsing_loong",
+  "license": "MIT",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  }
+}
