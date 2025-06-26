@@ -1,19 +1,52 @@
 {
   "name": "remark-hexo-tags",
   "version": "0.1.0",
-  "description": "A remark plugin to support Hexo tag plugins in Astro and Markdown rendering.",
+  "description": "Remark plugin for Hexo tag syntax support in Astro",
   "main": "index.js",
   "type": "module",
   "keywords": [
     "remark",
-    "plugin",
+    "remark-plugin",
     "hexo",
     "astro",
-    "markdown"
+    "markdown",
+    "tags",
+    "butterfly"
   ],
   "author": "Tsing_loong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsingloong611/remark-hexo-tags.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./styles": "./styles/tag-plugins.css",
+    "./styles/tag-plugins.css": "./styles/tag-plugins.css",
+    "./styles/*": "./styles/*"
+  },
+  "files": [
+    "index.js",
+    "plugins/",
+    "styles/",
+    "assets/"
+  ],
+  "peerDependencies": {
+    "unified": ">=10.0.0",
+    "remark-parse": ">=10.0.0"
+  },
   "dependencies": {
     "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "unified": "^11.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
