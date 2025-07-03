@@ -4,7 +4,7 @@ import remarkStringify from 'remark-stringify'
 import remarkHexoTagPlugins from './index.js'
 import fs from 'fs'
 
-const markdown = fs.readFileSync('./examples/demo.md', 'utf8'); // 确保 demo.md 包含 folding 标签
+const markdown = fs.readFileSync("D:\\NeoBlog\\major-mercury\\src\\content\\blog\\引索.md", 'utf8'); // 确保 demo.md 包含 folding 标签
 
 // 一个专门用来打印 AST 的插件
 function remarkInspectAst() {

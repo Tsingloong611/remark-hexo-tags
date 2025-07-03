@@ -2,6 +2,8 @@
 
 A Remark plugin that converts Hexo tag syntax to HTML for use in Astro projects.
 
+📦 [View on npm](https://www.npmjs.com/package/remark-hexo-tags)
+
 ## Installation
 
 ```bash
